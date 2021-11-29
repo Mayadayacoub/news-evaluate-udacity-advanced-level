@@ -1,0 +1,420 @@
+
+{
+  "header": {
+    "reportVersion": 1,
+    "event": "Allocation failed - JavaScript heap out of memory",
+    "trigger": "FatalError",
+    "filename": "report.20211014.115713.7088.0.001.json",
+    "dumpEventTime": "2021-10-14T11:57:13Z",
+    "dumpEventTimeStamp": "1634205433388",
+    "processId": 7088,
+    "cwd": "C:\\Users\\mayada\\Desktop\\evaluate",
+    "commandLine": [
+      "C:\\Program Files\\nodejs\\\\node.exe",
+      "C:\\Users\\mayada\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js",
+      "start"
+    ],
+    "nodejsVersion": "v12.9.1",
+    "wordSize": 64,
+    "arch": "x64",
+    "platform": "win32",
+    "componentVersions": {
+      "node": "12.9.1",
+      "v8": "7.6.303.29-node.15",
+      "uv": "1.31.0",
+      "zlib": "1.2.11",
+      "brotli": "1.0.7",
+      "ares": "1.15.0",
+      "modules": "72",
+      "nghttp2": "1.39.2",
+      "napi": "4",
+      "llhttp": "1.1.4",
+      "http_parser": "2.8.0",
+      "openssl": "1.1.1c",
+      "cldr": "35.1",
+      "icu": "64.2",
+      "tz": "2019a",
+      "unicode": "12.1"
+    },
+    "release": {
+      "name": "node",
+      "headersUrl": "https://nodejs.org/download/release/v12.9.1/node-v12.9.1-headers.tar.gz",
+      "sourceUrl": "https://nodejs.org/download/release/v12.9.1/node-v12.9.1.tar.gz",
+      "libUrl": "https://nodejs.org/download/release/v12.9.1/win-x64/node.lib"
+    },
+    "osName": "Windows_NT",
+    "osRelease": "6.1.7601",
+    "osVersion": "Windows 7 Home Premium Service Pack 1",
+    "osMachine": "x86_64",
+    "cpus": [
+      {
+        "model": "Intel(R) Core(TM) i3-2310M CPU @ 2.10GHz",
+        "speed": 2095,
+        "user": 1243811,
+        "nice": 0,
+        "sys": 1050417,
+        "idle": 7232611,
+        "irq": 162865
+      },
+      {
+        "model": "Intel(R) Core(TM) i3-2310M CPU @ 2.10GHz",
+        "speed": 2095,
+        "user": 452730,
+        "nice": 0,
+        "sys": 246996,
+        "idle": 8826536,
+        "irq": 1638
+      },
+      {
+        "model": "Intel(R) Core(TM) i3-2310M CPU @ 2.10GHz",
+        "speed": 2095,
+        "user": 1429203,
+        "nice": 0,
+        "sys": 864089,
+        "idle": 7232845,
+        "irq": 8798
+      },
+      {
+        "model": "Intel(R) Core(TM) i3-2310M CPU @ 2.10GHz",
+        "speed": 2095,
+        "user": 264250,
+        "nice": 0,
+        "sys": 108670,
+        "idle": 9153093,
+        "irq": 873
+      }
+    ],
+    "networkInterfaces": [
+      {
+        "name": "Wireless Network Connection",
+        "internal": false,
+        "mac": "cc:af:78:b8:be:61",
+        "address": "fdb4:f58e:a7a4:5000:4871:15cd:9200:beda",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "Wireless Network Connection",
+        "internal": false,
+        "mac": "cc:af:78:b8:be:61",
+        "address": "fdb4:f58e:a7a4:5000:3066:a18c:a1b7:4993",
+        "netmask": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "Wireless Network Connection",
+        "internal": false,
+        "mac": "cc:af:78:b8:be:61",
+        "address": "fe80::4871:15cd:9200:beda",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 17
+      },
+      {
+        "name": "Wireless Network Connection",
+        "internal": false,
+        "mac": "cc:af:78:b8:be:61",
+        "address": "192.168.1.7",
+        "netmask": "255.255.255.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "Loopback Pseudo-Interface 1",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "::1",
+        "netmask": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "Loopback Pseudo-Interface 1",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "127.0.0.1",
+        "netmask": "255.0.0.0",
+        "family": "IPv4"
+      }
+    ],
+    "host": "mayada-VAIO"
+  },
+  "javascriptStack": {
+    "message": "No stack.",
+    "stack": [
+      "Unavailable."
+    ]
+  },
+  "nativeStack": [
+    {
+      "pc": "0x000000013f3b6ed9",
+      "symbol": ""
+    },
+    {
+      "pc": "0x000000013f3bb26c",
+      "symbol": ""
+    },
+    {
+      "pc": "0x000000013f3ba218",
+      "symbol": ""
+    },
+    {
+      "pc": "0x000000013f4a5e6b",
+      "symbol": ""
+    },
+    {
+      "pc": "0x000000013fc989ae",
+      "symbol": ""
+    },
+    {
+      "pc": "0x000000013fc80951",
+      "symbol": ""
+    },
+    {
+      "pc": "0x000000013fb4ec8c",
+      "symbol": ""
+    },
+    {
+      "pc": "0x000000013fb56841",
+      "symbol": ""
+    },
+    {
+      "pc": "0x000000013fb4c263",
+      "symbol": ""
+    },
+    {
+      "pc": "0x000000013fb4ab04",
+      "symbol": ""
+    },
+    {
+      "pc": "0x000000013fb6a315",
+      "symbol": ""
+    },
+    {
+      "pc": "0x000000013f8d8fad",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00000001400b224d",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00000001400310fd",
+      "symbol": ""
+    },
+    {
+      "pc": "0x000002bf6afd135b",
+      "symbol": ""
+    }
+  ],
+  "javascriptHeap": {
+    "totalMemory": 15065088,
+    "totalCommittedMemory": 15065088,
+    "usedMemory": 8997096,
+    "availableMemory": 2179158696,
+    "memoryLimit": 2187329536,
+    "heapSpaces": {
+      "read_only_space": {
+        "memorySize": 262144,
+        "committedMemory": 262144,
+        "capacity": 261832,
+        "used": 31432,
+        "available": 230400
+      },
+      "new_space": {
+        "memorySize": 1048576,
+        "committedMemory": 1048576,
+        "capacity": 1047328,
+        "used": 1047232,
+        "available": 96
+      },
+      "old_space": {
+        "memorySize": 10596352,
+        "committedMemory": 10596352,
+        "capacity": 10579920,
+        "used": 5849752,
+        "available": 4730168
+      },
+      "code_space": {
+        "memorySize": 688128,
+        "committedMemory": 688128,
+        "capacity": 546272,
+        "used": 384960,
+        "available": 161312
+      },
+      "map_space": {
+        "memorySize": 1314816,
+        "committedMemory": 1314816,
+        "capacity": 1311744,
+        "used": 586800,
+        "available": 724944
+      },
+      "large_object_space": {
+        "memorySize": 1105920,
+        "committedMemory": 1105920,
+        "capacity": 1093464,
+        "used": 1093464,
+        "available": 0
+      },
+      "code_large_object_space": {
+        "memorySize": 49152,
+        "committedMemory": 49152,
+        "capacity": 3456,
+        "used": 3456,
+        "available": 0
+      },
+      "new_large_object_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 1047328,
+        "used": 0,
+        "available": 1047328
+      }
+    }
+  },
+  "resourceUsage": {
+    "userCpuSeconds": 49.733,
+    "kernelCpuSeconds": 14.398,
+    "cpuConsumptionPercent": 1.70335,
+    "maxRss": 57221120,
+    "pageFaults": {
+      "IORequired": 410465,
+      "IONotRequired": 0
+    },
+    "fsActivity": {
+      "reads": 549,
+      "writes": 2
+    }
+  },
+  "libuv": [
+  ],
+  "environmentVariables": {
+    "": "::=::\\",
+    "": "C:=C:\\Users\\mayada\\Desktop\\evaluate",
+    "ALLUSERSPROFILE": "C:\\ProgramData",
+    "APPDATA": "C:\\Users\\mayada\\AppData\\Roaming",
+    "asl.log": "Destination=file",
+    "CHROME_CRASHPAD_PIPE_NAME": "\\\\.\\pipe\\crashpad_4332_LNULHDBDIHXSSNNL",
+    "COLOR": "1",
+    "CommonProgramFiles": "C:\\Program Files\\Common Files",
+    "CommonProgramFiles(x86)": "C:\\Program Files (x86)\\Common Files",
+    "CommonProgramW6432": "C:\\Program Files\\Common Files",
+    "COMPUTERNAME": "MAYADA-VAIO",
+    "ComSpec": "C:\\Windows\\system32\\cmd.exe",
+    "configsetroot": "C:\\Windows\\ConfigSetRoot",
+    "EDITOR": "notepad.exe",
+    "FP_NO_HOST_CHECK": "NO",
+    "HOME": "C:\\Users\\mayada",
+    "HOMEDRIVE": "C:",
+    "HOMEPATH": "\\Users\\mayada",
+    "INIT_CWD": "C:\\Users\\mayada\\Desktop\\evaluate",
+    "LOCALAPPDATA": "C:\\Users\\mayada\\AppData\\Local",
+    "LOGONSERVER": "\\\\MAYADA-VAIO",
+    "NODE": "C:\\Program Files\\nodejs\\node.exe",
+    "NODE_EXE": "C:\\Program Files\\nodejs\\\\node.exe",
+    "NPM_CLI_JS": "C:\\Users\\mayada\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js",
+    "npm_command": "start",
+    "npm_config_cache": "C:\\Users\\mayada\\AppData\\Local\\npm-cache",
+    "npm_config_globalconfig": "C:\\Users\\mayada\\AppData\\Roaming\\npm\\etc\\npmrc",
+    "npm_config_global_prefix": "C:\\Users\\mayada\\AppData\\Roaming\\npm",
+    "npm_config_init_module": "C:\\Users\\mayada\\.npm-init.js",
+    "npm_config_local_prefix": "C:\\Users\\mayada\\Desktop\\evaluate",
+    "npm_config_metrics_registry": "https://registry.npmjs.org/",
+    "npm_config_noproxy": "",
+    "npm_config_prefix": "C:\\Users\\mayada\\AppData\\Roaming\\npm",
+    "npm_config_userconfig": "C:\\Users\\mayada\\.npmrc",
+    "npm_config_user_agent": "npm/8.0.0 node/v12.9.1 win32 x64 workspaces/false",
+    "npm_execpath": "C:\\Users\\mayada\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js",
+    "npm_node_execpath": "C:\\Program Files\\nodejs\\node.exe",
+    "NPM_PREFIX_NPM_CLI_JS": "C:\\Users\\mayada\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js",
+    "NUMBER_OF_PROCESSORS": "4",
+    "ORIGINAL_XDG_CURRENT_DESKTOP": "undefined",
+    "OS": "Windows_NT",
+    "Path": "C:\\Program Files\\Common Files\\Microsoft Shared\\Windows Live;C:\\Program Files (x86)\\Common Files\\Microsoft Shared\\Windows Live;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Sony\\VAIO Startup Setting Tool;C:\\Program Files\\Trend Micro\\AMSP;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\Program Files\\nodejs\\;C:\\Program Files\\Git\\cmd;;C:\\Users\\mayada\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\mayada\\AppData\\Roaming\\npm",
+    "PATHEXT": ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC",
+    "PROCESSOR_ARCHITECTURE": "AMD64",
+    "PROCESSOR_IDENTIFIER": "Intel64 Family 6 Model 42 Stepping 7, GenuineIntel",
+    "PROCESSOR_LEVEL": "6",
+    "PROCESSOR_REVISION": "2a07",
+    "ProgramData": "C:\\ProgramData",
+    "ProgramFiles": "C:\\Program Files",
+    "ProgramFiles(x86)": "C:\\Program Files (x86)",
+    "ProgramW6432": "C:\\Program Files",
+    "PROMPT": "$P$G",
+    "PSModulePath": "C:\\Users\\mayada\\Documents\\WindowsPowerShell\\Modules;C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\",
+    "PUBLIC": "C:\\Users\\Public",
+    "SESSIONNAME": "Console",
+    "SystemDrive": "C:",
+    "SystemRoot": "C:\\Windows",
+    "TEMP": "C:\\Users\\mayada\\AppData\\Local\\Temp",
+    "TMP": "C:\\Users\\mayada\\AppData\\Local\\Temp",
+    "USERDOMAIN": "mayada-VAIO",
+    "USERNAME": "mayada",
+    "USERPROFILE": "C:\\Users\\mayada",
+    "windir": "C:\\Windows",
+    "windows_tracing_flags": "3",
+    "windows_tracing_logfile": "C:\\BVTBin\\Tests\\installpackage\\csilogfile.log",
+    "TERM_PROGRAM": "vscode",
+    "TERM_PROGRAM_VERSION": "1.61.0",
+    "LANG": "en_US.UTF-8",
+    "COLORTERM": "truecolor",
+    "VSCODE_GIT_IPC_HANDLE": "\\\\.\\pipe\\vscode-git-2578bd9ed4-sock",
+    "GIT_ASKPASS": "c:\\Users\\mayada\\AppData\\Local\\Programs\\Microsoft VS Code\\resources\\app\\extensions\\git\\dist\\askpass.sh",
+    "VSCODE_GIT_ASKPASS_NODE": "C:\\Users\\mayada\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe",
+    "VSCODE_GIT_ASKPASS_MAIN": "c:\\Users\\mayada\\AppData\\Local\\Programs\\Microsoft VS Code\\resources\\app\\extensions\\git\\dist\\askpass-main.js"
+  },
+  "sharedObjects": [
+    "C:\\Program Files\\nodejs\\node.exe",
+    "C:\\Windows\\SYSTEM32\\ntdll.dll",
+    "C:\\Windows\\system32\\kernel32.dll",
+    "C:\\Windows\\system32\\KERNELBASE.dll",
+    "C:\\Windows\\system32\\dbghelp.dll",
+    "C:\\Windows\\system32\\msvcrt.dll",
+    "C:\\Windows\\system32\\WS2_32.dll",
+    "C:\\Windows\\system32\\RPCRT4.dll",
+    "C:\\Windows\\system32\\NSI.dll",
+    "C:\\Windows\\system32\\ADVAPI32.dll",
+    "C:\\Windows\\SYSTEM32\\sechost.dll",
+    "C:\\Windows\\system32\\USER32.dll",
+    "C:\\Windows\\system32\\GDI32.dll",
+    "C:\\Windows\\system32\\LPK.dll",
+    "C:\\Windows\\system32\\USP10.dll",
+    "C:\\Windows\\system32\\IPHLPAPI.DLL",
+    "C:\\Windows\\system32\\WINNSI.DLL",
+    "C:\\Windows\\system32\\PSAPI.DLL",
+    "C:\\Windows\\system32\\USERENV.dll",
+    "C:\\Windows\\system32\\profapi.dll",
+    "C:\\Windows\\system32\\CRYPT32.dll",
+    "C:\\Windows\\system32\\MSASN1.dll",
+    "C:\\Windows\\system32\\bcrypt.dll",
+    "C:\\Windows\\system32\\WINMM.dll",
+    "C:\\Windows\\system32\\IMM32.DLL",
+    "C:\\Windows\\system32\\MSCTF.dll",
+    "C:\\Windows\\system32\\api-ms-win-core-synch-l1-2-0.DLL",
+    "C:\\Windows\\system32\\powrprof.dll",
+    "C:\\Windows\\system32\\SETUPAPI.dll",
+    "C:\\Windows\\system32\\CFGMGR32.dll",
+    "C:\\Windows\\system32\\OLEAUT32.dll",
+    "C:\\Windows\\system32\\ole32.dll",
+    "C:\\Windows\\system32\\DEVOBJ.dll",
+    "C:\\Windows\\system32\\uxtheme.dll",
+    "C:\\Windows\\system32\\mswsock.dll",
+    "C:\\Windows\\System32\\wshtcpip.dll",
+    "C:\\Windows\\System32\\wship6.dll",
+    "C:\\Windows\\system32\\bcryptprimitives.dll",
+    "C:\\Windows\\system32\\dhcpcsvc.DLL",
+    "C:\\Windows\\system32\\dhcpcsvc6.DLL",
+    "C:\\Windows\\system32\\cryptbase.dll",
+    "C:\\Windows\\system32\\apphelp.dll",
+    "C:\\Windows\\system32\\NLAapi.dll",
+    "C:\\Windows\\system32\\napinsp.dll",
+    "C:\\Windows\\system32\\pnrpnsp.dll",
+    "C:\\Windows\\system32\\DNSAPI.dll",
+    "C:\\Windows\\System32\\winrnr.dll",
+    "C:\\Windows\\system32\\wshbth.dll",
+    "C:\\Program Files\\Common Files\\Microsoft Shared\\Windows Live\\WLIDNSP.DLL",
+    "C:\\Windows\\system32\\SHLWAPI.dll",
+    "C:\\Program Files\\Bonjour\\mdnsNSP.dll"
+  ]
+}
